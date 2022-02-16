@@ -4,6 +4,9 @@
 
   $(window).on('load', function() {
     
+    $(".filtering").on("click", "span", function () {
+      $(this).addClass("active").siblings().removeClass("active");
+  });
 
   /*Page Loader active
     ========================================================*/
