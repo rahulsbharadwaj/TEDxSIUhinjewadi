@@ -2555,3 +2555,11 @@ body{margin-top:20px;}
         left: 10px;
     }
 }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #e62b1e;
+}
+
+
+/* css for nav */
+/* end of nav */
