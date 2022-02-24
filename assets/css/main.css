@@ -983,72 +983,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #f3f4f3;
 }
 
-#schedule-tab {
-  position: relative;
-}
 
-.schedule .schedule-tab-title {
-  margin-bottom: 35px;
-}
-
-.schedule .schedule-tab-title .nav-tabs {
-  background: #ffffff;
-}
-
-.schedule .schedule-tab-title .nav-tabs .nav-link {
-  border-radius: 0px;
-  position: relative;
-  cursor: pointer;
-  height: 90px;
-  width: 255px;
-  border-bottom: 1px solid #e5e5e5;
-  transition: all 500ms ease;
-  padding: 20px 20px;
-}
-
-.schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link, .schedule .schedule-tab-title .nav-tabs .nav-link.active,
-.schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover {
-  background: #e62b1e;
-  border: 1px solid #e62b1e;
-  transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -o-transition: all 0.3s ease-in-out 0s;
-}
-
-.schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link h4, .schedule .schedule-tab-title .nav-tabs .nav-link.active h4,
-.schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover h4 {
-  color: #fff;
-}
-
-.schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link h5, .schedule .schedule-tab-title .nav-tabs .nav-link.active h5,
-.schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover h5 {
-  color: #fff;
-}
-
-.schedule .schedule-tab-title .item-text h4 {
-  font-size: 15px;
-  color: #2f323c;
-  line-height: 22px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.schedule .schedule-tab-title .item-text h5 {
-  font-size: 14px;
-  color: #848484;
-  line-height: 16px;
-  font-weight: 400;
-  text-transform: capitalize;
-}
-
-.schedule .schedule-tab-content .tab-content {
-  box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.1);
-}
-
-.schedule .schedule-tab-content .card {
-  border: none;
-}
 
 .schedule .show .card-body {
   background: #f3f4f3;
@@ -2555,11 +2490,28 @@ body{margin-top:20px;}
         left: 10px;
     }
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  color: #fff;
+
+#speklist{
   background-color: #e62b1e;
+  border-radius: 15px;
+  font-size: 20px;
+  color: white;
+  padding-left: 45px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
+.spill{
+  padding: 20px;
+  color: white;
+}
+.spill:active{
+  background-color: white;
+  color: #000;
+}
+.pell:hover{
+  background-color:black ;
+}
+.pell{
+  transition: 0.7s;
+}
 /* css for nav */
 /* end of nav */
